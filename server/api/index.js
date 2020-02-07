@@ -11,7 +11,7 @@ for (const service of serviceArray) {
   router.get(`${entry}/:productId`, (req, res) => {
     const { productId } = req.params;
 
-    axios.get(`${url}${output}/${productId}`)
+    axios.get(`${url}/api${output}/${productId}`)
       .then((response) => res.send(response.data))
       .catch((err) => res.status(404).send(err));
   });
