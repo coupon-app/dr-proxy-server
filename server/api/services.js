@@ -12,6 +12,6 @@ module.exports = [
   {
     entry: '/checkout',
     output: '/checkout',
-    url: 'http://18.188.34.11:3003',
+    url: 'http://checkout.duckdns.org',
   },
 ];
